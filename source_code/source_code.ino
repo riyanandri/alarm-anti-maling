@@ -1,4 +1,4 @@
-/////////////////////////////////////////
+///////////////////////// ////////////////
 //.........Alaram Anti Maling..........//
 /////////////////////////////////////////
 
@@ -39,7 +39,7 @@ void loop() {
     digitalWrite (buzzer, HIGH);
     digitalWrite (LEDRed, HIGH);
     digitalWrite (LEDGreen, LOW);
-    delay (10000); //lama waktu nyala alaram
+    delay (5000); //lama waktu nyala alaram
     }
 
     if (x==LOW && gerakan) {
